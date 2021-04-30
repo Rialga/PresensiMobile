@@ -57,7 +57,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 ),
 
-                // email field
+                // name field
                 new Container(
                   width: 250,
                   height: 40,
@@ -71,7 +71,7 @@ class _LoginPageState extends State<LoginPage> {
                     decoration: InputDecoration(
                       filled: true,
                       fillColor: Colors.white,
-                      hintText: 'E-mail',
+                      hintText: 'Nama',
                       contentPadding: const EdgeInsets.only(
                           left: 16.0, bottom: 11.0, right: 16),
                       focusedBorder: OutlineInputBorder(
