@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:persensi/loginPage.dart';
 import 'model/presensiHistory.dart';
 
 class DashboardPage extends StatefulWidget {
   final String name, password;
   DashboardPage({@required this.name, @required this.password});
-  static const double _appBarBottomBtnPosition = 24.0;
-
+ 
   @override
   _DashboardPageState createState() => _DashboardPageState();
 }
